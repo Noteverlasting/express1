@@ -1,0 +1,33 @@
+{
+  "name": "node_3xpress",
+  "version": "1.0.0",
+  "description": "Primera aplicacion con express",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noteverlasting/express1.git"
+  },
+  "keywords": [
+    "server",
+    "express",
+    "node",
+    "servidor"
+  ],
+  "author": "Omar Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noteverlasting/express1/issues"
+  },
+  "homepage": "https://github.com/Noteverlasting/express1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
